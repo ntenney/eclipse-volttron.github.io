@@ -1,0 +1,15 @@
+[[main]]
+    name = "ARCHIVES"
+    weight = 40
+[[main]]
+    parent = "ARCHIVES"
+    name = "PUBLICATIONS"
+    weight = 31
+[[main]]
+    parent = "ARCHIVES"
+    name = "NEWS AND EVENTS"
+    weight = 32
+[[main]]
+    parent = "ARCHIVES"
+    name = "VIDEOS"
+    weight = 33
