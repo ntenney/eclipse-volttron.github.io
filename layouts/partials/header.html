@@ -1,8 +1,15 @@
-<div id="header" >
+<div id="header" style = "background-image:url(/images/temp-image.jpg); background-size: cover;">
     {{ if .Site.IsMultiLingual }}
         {{- partial "languages.html" . }}
     {{- end -}}
-    <nav id="nav">
+    <div id="logo-wrapper"><h1><a href="{{ .Site.BaseURL }}" >
+       
+        <img src="/images/logo-tagline.png" alt="{{ .Site.Data.globalheader.image_alt }}" style="position:relative; max-width: 30%"/>
+        
+        
+    </a></h1></div>
+
+    <nav id="nav" style = "background-color: black;">
         <ul>
             {{- range .Site.Menus.main }}
                 <li class="{{ if or ($.Page.IsMenuCurrent "main" .) ($.Page.HasMenuCurrent "main" .) }}current{{ end }}">

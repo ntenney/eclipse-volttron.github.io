@@ -1,11 +1,8 @@
 
 banner:
   enable: "true"
-  image: "/images/mainPhoto.jpg"
+ 
   contents: "_Devices | Data | Decisions_"
-  button:
-     contents: "Download Here"
-     url: "#"
 
 items:
 
@@ -78,7 +75,7 @@ items:
       urlLeft: "https://www.pnnl.gov/"
       imageLeft: "images/Pnnl100.png"
 
-      urlCentral: "#"
+      urlCentral: "https://www.energy.gov/"
 
       imageCentral: "images/DOE.png"
       

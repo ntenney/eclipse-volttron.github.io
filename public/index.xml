@@ -17,6 +17,20 @@
       <description>Inexpensive, small-scale computers—such as the Raspberry Pi—can have VOLTTRON™ installed as a controller.&#xA;About VOLTTRON™ VOLTTRON™, developed at Pacific Northwest National Laboratory and available as an open-source tool, provides an environment where data and devices connect seamlessly and securely to make decisions based on user needs and preferences.&#xA;Business, research and academic communities agree that VOLTTRON™ is an important and versatile resource for improving building system performance and creating a more flexible and reliable power grid.</description>
     </item>
     <item>
+      <title>FOR DEVELOPERS</title>
+      <link>http://localhost:1313/developers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/developers/</guid>
+      <description>It’s versatile and easy to use. VOLTTRON™ provides an environment where data and devices connect seamlessly and securely to make decisions based on user needs and preferences.&#xA;Applications can readily be developed on top of this open source, distributed sensing and control platform for any need that requires collection, management and analysis of data streams. This includes improving energy efficiency in buildings, monitoring the performance of building systems, supporting grid services, coordinating connected homes, managing data and more.</description>
+    </item>
+    <item>
+      <title>PUBLICATIONS</title>
+      <link>http://localhost:1313/archives/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archives/publications/</guid>
+      <description> </description>
+    </item>
+    <item>
       <title>Adding Value</title>
       <link>http://localhost:1313/highlights/addsvalue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -43,6 +57,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/highlights/developerfriendly/</guid>
       <description>VOLTTRON™ was created as an overarching integration platform to bring together vendors, users and developers, enable rapid application development and testing, and support modern control strategies.&#xA;The platform is a cost and time saver. It is flexible, not linking applications to a specific language; interoperable across vendors and applications; and facilitates easy application development and scale-up.&#xA;These characteristics allow developers to work with devices, external resources, and each other over a common interface without worrying about underlying details, which enhances application development.</description>
+    </item>
+    <item>
+      <title>DOWNLOAD</title>
+      <link>http://localhost:1313/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/download/</guid>
+      <description>VOLTTRONTM is free and open-source, and available for download from GitHub. For more information on how to get VOLTTRON, visit Read the Docs.&#xA;Prior to download, view the license statement on GitHub.</description>
     </item>
     <item>
       <title>Interoperable</title>

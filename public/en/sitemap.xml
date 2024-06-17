@@ -40,6 +40,10 @@
   </url><url>
     <loc>http://localhost:1313/about/about/</loc>
   </url><url>
+    <loc>http://localhost:1313/developers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/archives/publications/</loc>
+  </url><url>
     <loc>http://localhost:1313/highlights/addsvalue/</loc>
   </url><url>
     <loc>http://localhost:1313/highlights/potential/</loc>
@@ -47,6 +51,8 @@
     <loc>http://localhost:1313/highlights/costeffective/</loc>
   </url><url>
     <loc>http://localhost:1313/highlights/developerfriendly/</loc>
+  </url><url>
+    <loc>http://localhost:1313/download/</loc>
   </url><url>
     <loc>http://localhost:1313/highlights/interoperable/</loc>
   </url><url>
@@ -72,6 +78,8 @@
     <lastmod>2020-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/highlights/</loc>
   </url><url>

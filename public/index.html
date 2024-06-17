@@ -17,7 +17,7 @@
   <meta property="og:type" content="website">
 </head>
     <body class="is-preload">
-        <div id="page-wrapper"><div id="header" >
+        <div id="page-wrapper"><div id="header" style = "background-image:url(/images/temp-image.jpg); background-size: cover;">
     <div class="dropdown" id="multilingual">
     <a class="dropbtn language link depth-0" href="#" title="Select language" id="languageDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
     <i class="fas fa-fw fa-globe"></i>
@@ -51,7 +51,14 @@
             </a>
         </li></ul>
 </div>
-<nav id="nav">
+<div id="logo-wrapper"><h1><a href="http://localhost:1313/" >
+       
+        <img src="/images/logo-tagline.png" alt="" style="position:relative; max-width: 30%"/>
+        
+        
+    </a></h1></div>
+
+    <nav id="nav" style = "background-color: black;">
         <ul>
                 <li class="current">
                     <a href="/">HOME</a>
@@ -60,23 +67,90 @@
                 <li class="">
                     <a href="/about/about/">ABOUT</a>
                 <li class="">
+                    <a href="/developers/">FOR DEVELOPERS</a>
+                <li class="">
+                    <a href="/download/">DOWNLOAD</a>
+                <li class="">
                     <a href="#">ARCHIVES</a><ul>
                         <li class="">
-                            <a href="#">PUBLICATIONS</a>
+                            <a href="/archives/publications/">PUBLICATIONS</a>
                         <li class="">
                             <a href="#">NEWS AND EVENTS</a>
                         <li class="">
                             <a href="#">VIDEOS</a>
+                        <li class="">
+                            <a href="#">OFFICE HOURS</a>
                     </ul>
         </ul>
     </nav>
 </div>
 
             
-            <section id="banner">
+            <section id="banner" >
     
+    <!DOCTYPE html>
+    <html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+ 
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  z-index: -1;
   
-    
+}
+
+ 
+.text {
+  color:white;
+  font-size: 25px;
+  padding: 50px 250px;
+  position: absolute;
+  bottom: 350px;
+  width: 100%;
+  text-align:left;
+  line-height: 50px;
+  text-shadow: 2px 2px 0px black;
+}
+
+ 
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+ 
+
+.active {
+  background-color:white;
+}
+
+ 
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+ 
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
    
     
     <div class="slideshow-container">
@@ -84,19 +158,25 @@
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
       <img src="images/splash-constelation_1.jpg" style="width:100%">
-      <div class="text">Caption Text</div>
+      <div class="text"><b>"In today’s data driven world, what if you had a ubiquitous communications tool that could 
+        “do it all?” The VOLTTRON™ open-source software platform offers an environment where data and devices 
+        connect seamlessly and securely to make decisions based on user needs and preferences."</b></div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
       <img src="images/mainPhoto.jpg" style="width:100%">
-      <div class="text">Caption Two</div>
+      <div class="text"><b>We're working to deploy VOLTTRON™ in a big way in buildings, where it will collect and send building 
+        automation system data to the cloud for further analysis in order to optimize building system operations.</b>
+      <br> -Terry Herr<br>Intellimation </div>
     </div>
     
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
       <img src="images/Side3Image.jpg" style="width:100%">
-      <div class="text">Caption Three</div>
+      <div class="text"><b>The open source component of VOLTTRON™ is revolutionary; it gives many residential and small
+         commercial buildings a chance to be smart, while allowing all of us to contribute to the technology.</b>
+      <br> -Da-Wei Huang<br>City University of New York </div>
     </div>
     
     </div>
@@ -109,35 +189,30 @@
     </div>
     
     <script>
-    let slideIndex = 0;
-    showSlides();
-    
-    function showSlides() {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
+      let slideIndex = 0;
+      showSlides();
+      
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 8000); 
       }
-      slideIndex++;
-      if (slideIndex > slides.length) {slideIndex = 1}    
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";  
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 4000); 
-    }
     </script>
     
     </body>
     </html> 
-    
-    <header>
-        <h2><em>Devices | Data | Decisions</em></h2>
-            <a href="#" class="button">Download Here</a>
-      
-    </header>
+   
 </section>
 <section class="wrapper style1">
     <div class="container">
@@ -324,7 +399,7 @@
                     
                 </a>
               
-                <a href="#"  style = "position:relative;top:-30px ;right: 350px">
+                <a href="https://www.energy.gov/"  style = "position:relative;top:-30px ;right: 350px">
                     <img src="/images/DOE.png"> 
                 </a>
                
@@ -337,6 +412,7 @@
         </header>
     </div>
 </section>
+
 
             <div id="footer">
     

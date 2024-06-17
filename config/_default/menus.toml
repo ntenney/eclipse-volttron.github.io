@@ -1,15 +1,20 @@
 [[main]]
     name = "ARCHIVES"
-    weight = 40
+    weight = 60
 [[main]]
     parent = "ARCHIVES"
     name = "PUBLICATIONS"
-    weight = 31
+    url = "/archives/publications/"
+    weight = 61
 [[main]]
     parent = "ARCHIVES"
     name = "NEWS AND EVENTS"
-    weight = 32
+    weight = 62
 [[main]]
     parent = "ARCHIVES"
     name = "VIDEOS"
-    weight = 33
+    weight = 63
+[[main]]
+    parent = "ARCHIVES"
+    name = "OFFICE HOURS"
+    weight = 64
