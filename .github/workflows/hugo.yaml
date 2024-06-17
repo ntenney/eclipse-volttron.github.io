@@ -1,7 +1,6 @@
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
-markdown_extensions:
- - markdown_captions
+
 on:
   # Runs on pushes targeting the default branch
   push:
@@ -78,4 +77,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
