@@ -14,26 +14,26 @@ items:
       content: 
         VOLTTRON™'s creation benefitted from innovative thinking that looked at today's needs from every angle-and 
         brought it all together in a versatile solution that's easy to implement and use
-      URL: "/highlights/developerfriendly/"
+      URL: "highlights/developerfriendly"
     - title: Cost Effective
       icon: fa-piggy-bank
       content: 
         VOLTTRON™ is open source software, can be hosted on inexpensive computing resources, and enables 
         rapid delivery of innovations on a range of computing devices
-      URL: "/highlights/costeffective/"
+      URL: "highlights/costeffective"
     - title: Adds Value
       icon: fa-gem
       content:
         The VOLTTRON™ platform reduces costs, improves functionality, and provides a secure, stable foundation on
         which to innovate and build low-cost applications
-      URL: "/highlights/addsvalue/"
+      URL: "highlights/addsvalue"
     - title: Secure
       icon: fa-lock
       content: >
         Underpinned with a robust security foundation, VOLTTRON™ combts today's 
         cyber vulnerabilities and attacks, providing a safe environment for transacting 
         information and data
-      URL: "/highlights/secure/"
+      URL: "highlights/secure"
     - title: Interoperable
       icon: fa-quote-right
       content: >
