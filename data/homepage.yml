@@ -4,6 +4,8 @@ banner:
  
   contents: "_Devices | Data | Decisions_"
 
+
+
 items:
 
   - type: highlights
@@ -79,5 +81,4 @@ items:
 
       imageCentral: "images/DOE.png"
       
-      urlButt: 
-      contents: Download Here!
+      
