@@ -42,9 +42,9 @@
   </url><url>
     <loc>http://localhost:1313/developers/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/publications/</loc>
+    <loc>http://localhost:1313/archives/publications/publications/</loc>
   </url><url>
-    <loc>http://localhost:1313/highlights/addsvalue/</loc>
+    <loc>http://localhost:1313/highlights/addsvalue/addsvalue/</loc>
   </url><url>
     <loc>http://localhost:1313/highlights/potential/</loc>
   </url><url>
