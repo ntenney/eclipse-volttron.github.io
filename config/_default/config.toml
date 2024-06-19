@@ -1,6 +1,7 @@
 baseURL = "https://example.org/"
 relativeURL = "true"
 languageCode = "en-us"
+canonifyURLs = "true"
 
 theme = "arcana"
 copyright = "© Untitled. All rights reserved"

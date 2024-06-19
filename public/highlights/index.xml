@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/highlights/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Adding Value</title>
-      <link>http://localhost:1313/highlights/addsvalue/addsvalue/</link>
+      <link>http://localhost:1313/highlights/addsvalue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/highlights/addsvalue/addsvalue/</guid>
+      <guid>http://localhost:1313/highlights/addsvalue/</guid>
       <description>Developer Friendly VOLTTRON™, in field tests and actual applications, adds value by reducing implementation, integration and application development costs, which allows users to devote resources to other needs. Value also comes in results. In power grid- and buildings-related deployments, the platform has delivered energy efficiency improvements.&#xA;VOLTTRON™ value-adding features include: Built-in security, which likely will reduce platform maintenance costs over time Quality results at lower costs—It is open source and runs on low-priced commodity boards ($35 or less), greatly enabling low-cost implementation and maintenance Affordable application development Interoperability, connecting devices, protocols, and other platforms Availability of ongoing engagement and technical assistance provided by the VOLTTRON™ development team—The team holds regular “Office Hours” meetings with users to discuss new features and plans, collaborate and answer questions.</description>
     </item>
     <item>
